@@ -47,7 +47,7 @@
 -->
 
 <p align="center">
-    <img src="https://github.com/spacelab-ufsc/ro-antenna/blob/main/docs/pictures/ro-antenna-top.png" width="400">
+    <img src="https://github.com/spacelab-ufsc/ro-antenna/blob/main/docs/pictures/ro-antenna-array-top.png" width="1000">
   <!--<img src="https://github.com/spacelab-ufsc/ro-antenna/blob/main/docs/pictures/ro-antenna-bottom.png" width="400"> -->
 </p>
 
