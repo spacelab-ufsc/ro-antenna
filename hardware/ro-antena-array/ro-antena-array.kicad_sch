@@ -2,9 +2,302 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 29a44a6c-06cc-419b-a98a-5d9ecd25b821)
+	(uuid "29a44a6c-06cc-419b-a98a-5d9ecd25b821")
 	(paper "A4")
-	(lib_symbols)
+	(title_block
+		(title "Radio Occultation Antenna Array")
+		(date "2025-06-18")
+		(rev "v1.0")
+		(company "SpaceLab-UFSC")
+		(comment 1 "Acad. Lucas Ryan Carneiro")
+		(comment 2 "Eng. Yunior Alcantara Guevara")
+	)
+	(lib_symbols
+		(symbol "spacelab_lib:ro-antenna-element"
+			(pin_names
+				(offset 2.54)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "spacelab_lib:ro-antenna-element"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.508 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ro-antenna-element_1_1"
+				(polyline
+					(pts
+						(xy -7.62 3.81) (xy -3.81 7.62) (xy 3.81 7.62) (xy 7.62 3.81) (xy 7.62 -3.81) (xy 3.81 -7.62)
+						(xy -3.81 -7.62) (xy -7.62 -3.81) (xy -7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 153 0 1)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 60.96 40.005)
+		(end 97.155 158.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f74af707-6709-424d-82fb-2bbe7e9a663a)
+	)
+	(symbol
+		(lib_id "spacelab_lib:ro-antenna-element")
+		(at 78.74 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3290f056-142b-49a0-8c4d-81d8c6cadfd8")
+		(property "Reference" "A2"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spacelab_lib:ro-antenna-element"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ro-antena-array"
+				(path "/29a44a6c-06cc-419b-a98a-5d9ecd25b821"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "spacelab_lib:ro-antenna-element")
+		(at 78.74 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a80db192-74da-4333-9206-af76714a5574")
+		(property "Reference" "A1"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spacelab_lib:ro-antenna-element"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/29a44a6c-06cc-419b-a98a-5d9ecd25b821"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "spacelab_lib:ro-antenna-element")
+		(at 78.74 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f20f49-02c7-4751-b945-c497e206380a")
+		(property "Reference" "A3"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spacelab_lib:ro-antenna-element"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ro-antena-array"
+				(path "/29a44a6c-06cc-419b-a98a-5d9ecd25b821"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

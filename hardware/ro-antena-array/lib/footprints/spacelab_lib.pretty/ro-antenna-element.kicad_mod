@@ -1,0 +1,125 @@
+(footprint "ro-antenna-element"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e293e233-7a35-4b34-be5f-8596121e5e47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ro-antenna-element"
+		(at 10 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13f3ade1-6788-4096-989a-dbf74dede007")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b98631f-8645-4ae2-be17-c8d2e3f99cdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4602faea-ec1e-4552-9e0e-25734c59f23a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -25 -12.5) (xy -12.5 -25) (xy 12.5 -25) (xy 25 -12.5) (xy 25 12.5) (xy 12.5 25) (xy -12.5 25)
+			(xy -25 12.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "10e922f6-9bbd-4b9e-ad2a-4c8aabeb7495")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0897fc1a-8f99-438f-84ce-d7cbd305bc89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 10 0)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4246b9d5-db7e-428c-825e-8eae6112021c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "1f4aa0a3-dd56-4422-a87c-29e2aab64566")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -30 -30) (xy 30 -30) (xy 30 30) (xy -30 30)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
